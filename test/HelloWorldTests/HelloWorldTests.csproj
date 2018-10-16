@@ -10,7 +10,7 @@
     <PackageReference Include="VSSDK.Shell.11" Version="11.0.4" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
-    <PackageReference Include="VsixTesting.Xunit" Version="0.1.36-beta-gc01d2e9388" />
+    <PackageReference Include="VsixTesting.Xunit" Version="0.1.37-beta-g78cb887d0f" />
   </ItemGroup>
 
   <ItemGroup>
