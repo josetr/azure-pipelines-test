@@ -17,7 +17,9 @@ steps:
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
-
+    feedsToUse: config
+    nugetConfigPath: NuGet.Config
+    
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
@@ -28,3 +30,4 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
