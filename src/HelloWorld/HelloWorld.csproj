@@ -4,7 +4,7 @@
 
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
-    <DeployExtension>true</DeployExtension>
+    <DeployExtension>false</DeployExtension>
   </PropertyGroup>
 
   <PropertyGroup>
